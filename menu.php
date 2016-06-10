@@ -1,9 +1,8 @@
 <?php  
-$MENU_PAGES= array( 
-'index.php'=>'Help', 
+$MENU_PAGES= array(
+'index.php'=>'Cyrillic conversions', 
 'ru_cp.php'=>'Russian cyrillic encodings', 
-'cyrconv.php'=>'Cyrillic conversions', 
-#'ru_cyrillic.tgz'=>'PHP scripts in tarball'
+'old_index.php'=>'Help' 
 ); 
 $c=0; 
 $MENU_TEXT='';
@@ -13,4 +12,4 @@ foreach ($MENU_PAGES as $key=>$value)
 		$c++; 
 	} 
 echo $MENU_TEXT.='&nbsp;|&nbsp;<a href="../">Home</a>';
- ?>
+

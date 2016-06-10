@@ -7,7 +7,7 @@
 </HEAD> 
  
 <BODY>
-<?php include preg_replace('/\/[^\/]+$/','',$HTTP_SERVER_VARS['SCRIPT_FILENAME']).'/menu.inc'; ?>
+<?php include('menu.php'); ?>
 <br><br> 
 Here are listed numeric or string values of letters in different russian charsets.
 <br><br>
